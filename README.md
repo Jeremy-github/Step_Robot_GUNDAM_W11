@@ -21,7 +21,7 @@ ___
 
 ## **Paso #3: Configuración del entorno**
 ##### - Debe obtener este script en cada terminal de bash en el que use ROS con el comando: 
->`source /opt/ros/noetic/setup.bash`
+``` source /opt/ros/noetic/setup.bash ```
 
 ##### - Si tiene más de una distribución ROS instalada, solo debe obtener setup.bash para la versión que está utilizando actualmente con :
 >`echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc`
