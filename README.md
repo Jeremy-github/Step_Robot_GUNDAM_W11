@@ -108,22 +108,24 @@ ___
 
 ## **Paso #8: Importar URDF_Geometry_Parser**
 <!-- #### - Importar URDF_Geometry_Parser -->
->`$ cd src`
-
->`$ git clone https://github.com/ros-controls/urdf_geometry_parser.git>`
-
->`https://github.com/ros-controls/urdf_geometry_parser`
+```
+$ cd src`
+$ git clone https://github.com/ros-controls/urdf_geometry_parser.git>
+```
+link: https://github.com/ros-controls/urdf_geometry_parser`
 ___
 
 ## **Paso #9: Importar Four_wheel_steering**
 <!-- #### - Importar Four_wheel_steering -->
->` cd src`
-
->`$ git clone https://github.com/ros-drivers/four_wheel_steering_msgs.git`
-
->`https://github.com/ros-drivers/four_wheel_steering_msgs.git`
+```
+$ cd src`
+$ git clone https://github.com/ros-drivers/four_wheel_steering_msgs.git
+```
+Link: https://github.com/ros-drivers/four_wheel_steering_msgs.git`
 #### - luego en workspace 
->`$ catkin_make`
+```
+catkin_make
+```
 #### - debera compilar al 100% cuando tengan todas las dependencias instaladas
 
 
