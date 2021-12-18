@@ -133,5 +133,5 @@ catkin_make
 ```
 $ roslaunch gundam_rx78_gazebo gundam_rx78_walk.launch
 ```
-![Iniciar simulación](SemestraAI_2021/../importar_mapa.PNG)
+![Iniciar simulación](SemestraAI_2021/importar_mapa.PNG)
 
