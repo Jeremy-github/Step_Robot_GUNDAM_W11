@@ -65,36 +65,51 @@ mkadir src
 ```
 
 ##### - dentro de la carpeta "workspace" que creamos debemos compilar
->`$ catkin_make`
+```
+catkin_make
+```
 
 
 ##### - Con el siguiente comando debemos de llegar a la ruta "/workspace/devel$"
->`$ source /home/jeremy/workspace/devel/setup.bash`
+```
+source /home/jeremy/workspace/devel/setup.bash
+```
 
->`$ roscd`
+```
+roscd
+```
 
 
 ##### - Para que tu sesion de usuario siempre encuentre la carpeta y comandos de ros
->`$ cd $HOME`
-
->`$ echo "source /home/jeremy/workspace/devel/setup.bash" >> .bashrc`
+```
+cd $HOME
+```
+```
+echo "source /home/jeremy/workspace/devel/setup.bash" >> .bashrc
+```
 ___
 
 ## **Paso #7: Importar Paquete de GUNDAM**
 ##### - Debemos movernos a la carpeta src con el comando:
->`$ cd workspace/src`
+```
+cd workspace/src
+```
 #### -  descargara todo el paquete de GUNDAM en src 
->`$ git clone https://github.com/gundam-global-challenge/gundam_robot.git`
+```
+git clone https://github.com/gundam-global-challenge/gundam_robot.git
+```
 #### - ubicarse en workspace para compilar
->`$ catkin_make`
+```
+catkin_make
+```
 #### -luego si salen errores de dependencias instalar todos esos paquetes de dependencia en src
 
 ##### - importar ROS controller
->`$ cd src`
-
->`$ git clone https://github.com/ros-controls/ros_controllers.git`
-
->`https://github.com/ros-controls/ros_controllers`
+```
+$ cd src
+$ git clone https://github.com/ros-controls/ros_controllers.git
+```
+>``https://github.com/ros-controls/ros_controllers``
 ___
 
 ## **Paso #8: Importar URDF_Geometry_Parser**
