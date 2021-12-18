@@ -72,20 +72,14 @@ catkin_make
 
 ##### - Con el siguiente comando debemos de llegar a la ruta "/workspace/devel$"
 ```
-source /home/jeremy/workspace/devel/setup.bash
+$ source /home/jeremy/workspace/devel/setup.bash
+$ roscd
 ```
-
-```
-roscd
-```
-
 
 ##### - Para que tu sesion de usuario siempre encuentre la carpeta y comandos de ros
 ```
-cd $HOME
-```
-```
-echo "source /home/jeremy/workspace/devel/setup.bash" >> .bashrc
+$ cd $HOME
+$ echo "source /home/jeremy/workspace/devel/setup.bash" >> .bashrc
 ```
 ___
 
@@ -109,7 +103,7 @@ catkin_make
 $ cd src
 $ git clone https://github.com/ros-controls/ros_controllers.git
 ```
->``https://github.com/ros-controls/ros_controllers``
+https://github.com/ros-controls/ros_controllers
 ___
 
 ## **Paso #8: Importar URDF_Geometry_Parser**
