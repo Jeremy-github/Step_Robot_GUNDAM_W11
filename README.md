@@ -9,50 +9,60 @@ ___
 ## **Paso #2: Instalar ROS**
 ##### -  Aseguremonos de que el índice de su paquete Debian esté actualizado con el comando:
 ``` 
-$ sudo apt update 
+sudo apt update 
 ```
 
 ##### - Instalación completa en el escritorio: (Recomendado) : todo en el escritorio más simuladores 2D / 3D y paquetes de percepción 2D / 3D  comando:
  ``` 
-$ sudo apt install ros-noetic-desktop-full
+sudo apt install ros-noetic-desktop-full
 ```
 ___
 
 
 ## **Paso #3: Configuración del entorno**
 ##### - Debe obtener este script en cada terminal de bash en el que use ROS con el comando: 
-``` source /opt/ros/noetic/setup.bash ```
+``` 
+source /opt/ros/noetic/setup.bash 
+```
 
 ##### - Si tiene más de una distribución ROS instalada, solo debe obtener setup.bash para la versión que está utilizando actualmente con :
->`echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc`
-
->`source ~/.bashrc`
+```
+$ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+$ source ~/.bashrc
+```
 ___
 
 ## **Paso #4: Dependencias para la construcción de paquetes**
 ##### - Ahora crearemos y administraremos el espacio de trabajo ROS, una de las herramientas que nos permite hacer esto es rosintall que es la que usaremos
->`sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential`
+```
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+```
 
 ___
 
 ## **Paso #5: Inicializar rosdep**
 ##### Rosdep le permite instalar fácilmente las dependencias del sistema para la fuente que desea compilar y es necesario para ejecutar algunos componentes centrales en ROS. Si aún no ha instalado rosdep , hágalo de la siguiente manera.
->`sudo apt install python3-rosdep`
+```
+sudo apt install python3-rosdep
+```
 ___
 
 ## **Paso #6: para verificar ROS este activo**
->`$ source /opt/ros/noetic/setup.bash`
-
->`$ roscd`
+``` 
+$ source /opt/ros/noetic/setup.bash
+$ roscd
+```
 ___
 
 ## **Paso #7: Configurar el espacio de trabajo**
-##### - Comando para crear carpetas de trabajo y las fuentes
->`$ cd`
+##### - Comando para crear carpetas de trabajo y las fuentes ubicarse en $home
 
->`$ mkdir workspace`
-
->`$ mkadir src`
+```
+mkdir workspace
+```
+```
+mkadir src
+```
 
 ##### - dentro de la carpeta "workspace" que creamos debemos compilar
 >`$ catkin_make`
