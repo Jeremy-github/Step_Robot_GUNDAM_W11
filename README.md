@@ -13,8 +13,8 @@ $ sudo apt update
 ```
 
 ##### - Instalación completa en el escritorio: (Recomendado) : todo en el escritorio más simuladores 2D / 3D y paquetes de percepción 2D / 3D  comando:
-> ``` 
-sudo apt install ros-noetic-desktop-full
+ ``` 
+> sudo apt install ros-noetic-desktop-full
 ```
 ___
 
