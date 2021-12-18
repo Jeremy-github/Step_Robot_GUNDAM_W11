@@ -1,4 +1,4 @@
-# **Pasos a seguir para que Gundam desde W11 camine en de ciudad de Panamá**
+# **Pasos a seguir para que Gundam desde W11 camine en la ciudad de Panamá**
 
 
 ## **Paso #1: Instalar WSL**
