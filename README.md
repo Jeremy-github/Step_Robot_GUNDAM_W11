@@ -129,4 +129,9 @@ catkin_make
 #### - debera compilar al 100% cuando tengan todas las dependencias instaladas
 
 
+## **Paso #10: Iniciar simulacion!!!**
+```
+$ roslaunch gundam_rx78_gazebo gundam_rx78_walk.launch
+```
+![Iniciar simulación](./importar_mapa.PNG)
 
