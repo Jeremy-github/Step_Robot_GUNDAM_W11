@@ -178,7 +178,7 @@ $ rosrun gundam_rx78_control joint_trajectory_client_csv.py `rospack find gundam
 
 
 
-## **Paso #13: Gundam Dando sus primeros pasos**
+## **Paso #13: Gundam Dando sus primeros pasos en la ciudad de Panamá**
 ![GundamCaminaenPanama](SemestraAI_2021/GundamCaminaenPanama.gif)
 
 
