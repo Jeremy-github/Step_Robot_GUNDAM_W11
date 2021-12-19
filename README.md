@@ -84,6 +84,7 @@ $ echo "source /home/jeremy/workspace/devel/setup.bash" >> .bashrc
 ___
 
 ## **Paso #7: Importar Paquete de GUNDAM**
+Link Repositorio: https://github.com/gundam-global-challenge/gundam_robot
 ##### - Debemos movernos a la carpeta src con el comando:
 ```
 cd workspace/src
