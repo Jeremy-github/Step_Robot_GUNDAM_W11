@@ -84,7 +84,6 @@ $ echo "source /home/jeremy/workspace/devel/setup.bash" >> .bashrc
 ___
 
 ## **Paso #7: Importar Paquete de GUNDAM**
-Link Repositorio: https://github.com/gundam-global-challenge/gundam_robot
 ##### - Debemos movernos a la carpeta src con el comando:
 ```
 cd workspace/src
@@ -143,5 +142,43 @@ $ roslaunch gundam_rx78_gazebo gundam_rx78_walk.launch
 ![Importar mapa de Pnamá](SemestraAI_2021/02_importar_mapa.PNG)
 #### - Luego add para buscar nuestro archivo del mapa de Panama modelado en 3D
 ![Importar mapa de Pnamá](SemestraAI_2021/03_add.PNG)
+
+## **Paso #12: Comandos para que Guandam de pasos**
+###  Mientras el simulador está corriendo, en una ueva terminar se puede proceder a ejecutar los siguientes comandos que desee:
+
+#### - Caminar hacia adelante
+```
+$ rosrun gundam_rx78_control joint_trajectory_client_csv.py `rospack find gundam_rx78_control`/sample/csv/walk-forward.csv
+```
+
+#### - Caminar hacia atras
+```
+$ rosrun gundam_rx78_control joint_trajectory_client_csv.py `rospack find gundam_rx78_control`/sample/csv/walk-backward.csv
+```
+
+#### - Moverse a la derecha
+```
+$ rosrun gundam_rx78_control joint_trajectory_client_csv.py `rospack find gundam_rx78_control`/sample/csv/walk-to-right.csv
+```
+
+#### - Moverse a la izquierd
+```
+$ rosrun gundam_rx78_control joint_trajectory_client_csv.py `rospack find gundam_rx78_control`/sample/csv/walk-to-left.csv
+```
+
+#### - Girar a la derecha
+```
+$ rosrun gundam_rx78_control joint_trajectory_client_csv.py `rospack find gundam_rx78_control`/sample/csv/turn-right.csv
+```
+
+#### - Girar a la izquierda
+```
+$ rosrun gundam_rx78_control joint_trajectory_client_csv.py `rospack find gundam_rx78_control`/sample/csv/turn-left.csv
+```
+
+
+
+## **Paso #13: Gundam Dando sus primeros pasos**
+![GundamCaminaenPanama](SemestraAI_2021/GundamCaminaenPanama.gif)
 
 
