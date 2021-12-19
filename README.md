@@ -1,4 +1,4 @@
-# **Pasos a seguir para el Robot Gundam camine en la ciudad de Panamá en Windows 11**
+# **Pasos a seguir para que el Robot Gundam camine en la ciudad de Panamá en Windows 11**
 
 
 ## **Paso #1: Instalar WSL**
