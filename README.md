@@ -3,7 +3,7 @@
 
 ## **Paso #1: Instalar WSL**
 ##### La necesidad de tener intalado el WSL en Windows es para no hacer uso de la sobrecarga de una máquina virtual tradicional o una configuración de arranque dual.si no que en vez de eso instalamos este wsl que es un subsistema de Windos que nos pemitira ejecutar un entorno GNU / Linux, incluidas la mayoría de las herramientas, utilidades y aplicaciones de línea de comandos, directamente en Windows.     Compartimos con ustedes los pasos a seguir en  https://gjenkinsedu.com/post/install_wsl_ubuntu_to_windows_11_0000/ o ver los pasos desde el siguiente video
-[![IMAGE ALT TEXT HERE](https://www.trecebits.com/wp-content/uploads/2019/09/YouTube.jpg)](https://www.youtube.com/watch?v=wWFI2Gxtq-8)
+[![IMAGE ALT TEXT HERE](SemestraAI_2021/00_youtube.PNG)](https://www.youtube.com/watch?v=wWFI2Gxtq-8)
 ___
 
 ## **Paso #2: Instalar ROS**
@@ -133,5 +133,14 @@ catkin_make
 ```
 $ roslaunch gundam_rx78_gazebo gundam_rx78_walk.launch
 ```
-![Iniciar simulación](SemestraAI_2021/importar_mapa.PNG)
+![Iniciar simulación](SemestraAI_2021/01_iniaSimulacion.PNG)
+
+
+
+
+## **Paso #11: Importar mapa de la ciudad de Panamá en 3D**
+![Importar mapa de Pnamá](SemestraAI_2021/02_importar_mapa.PNG)
+#### - Luego add para buscar nuestro archivo del mapa de Panama modelado en 3D
+![Importar mapa de Pnamá](SemestraAI_2021/03_add.PNG)
+
 
